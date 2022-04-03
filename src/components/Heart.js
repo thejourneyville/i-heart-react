@@ -1,13 +1,15 @@
-// stateless functional component
-import HeartLogo from '../assets/heart.svg';
+// this page is no longer used, and replaced with CandyColoredHeart.js
 
-const Heart = (props) => {
-        return (
-        <div className='heart'>
-                <img className='heart-img' src={HeartLogo} alt='heart' />
-                <p className='heart-message'>{props.msg}</p>
-        </div>
-        )
-};
+// import HeartLogo from '../assets/heart.svg';
 
-export default Heart;
+// // stateless functional component
+// const Heart = (props) => {
+//         return (
+//         <div className='heart'>
+//                 <img className='heart-img' src={HeartLogo} alt='heart' />
+//                 <p className='heart-message'>{props.msg}</p>
+//         </div>
+//         )
+// };
+
+// export default Heart;

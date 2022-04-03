@@ -1,8 +1,8 @@
 // stateless functional component
 const Header = (props) => {
-        return (
+    return (
         <div className='App-header'>{props.msg}</div>
-        )
+    )
 };
 
 export default Header;

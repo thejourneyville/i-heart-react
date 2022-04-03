@@ -5,19 +5,15 @@ import './App.css';
 // constant variables for the messages
 const headerMessage = 'I ❤️ React';
 
-
-
-
-
-// react custom component
+// stateless functional component
 function App() {
-  return (
-    // empty element 'fragment'
-    <>
-      <Header msg={headerMessage} />
-      <HeartsList />
-    </>
-  );
+    return (
+        // empty element 'fragment'
+        <>
+            <Header msg={headerMessage} />
+            <HeartsList />
+        </>
+    );
 }
 
 export default App;
